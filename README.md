@@ -1,3 +1,7 @@
+**Project Name:** devops-capstone-project
+
+**Description:** This DevOps Capstone Project focuses on developing a customer accounts microservice using Python Flask and REST APIs. The application will allow users to create, read, update, delete, and list customer accounts. The project will also include automated testing, Docker, Kubernetes, and CI/CD pipelines.
+
 # DevOps Capstone Template
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
