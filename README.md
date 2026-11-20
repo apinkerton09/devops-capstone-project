@@ -1,5 +1,7 @@
 **Project Name:** devops-capstone-project
 
+![Build Status](https://github.com/apinkerton09/devops-capstone-project/actions/workflows/ci-build.yaml/badge.svg)
+
 **Description:** This DevOps Capstone Project focuses on developing a customer accounts microservice using Python Flask and REST APIs. The application will allow users to create, read, update, delete, and list customer accounts. The project will also include automated testing, Docker, Kubernetes, and CI/CD pipelines.
 
 # DevOps Capstone Template
