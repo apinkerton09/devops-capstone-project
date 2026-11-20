@@ -121,9 +121,10 @@ class TestAccountService(TestCase):
             json=account.serialize(),
             content_type="test/html"
         )
-        self.assertEqual(response.status_code, status.HTTP_415_UNSUPPORTED_MEDIA_TYPE)
+        self.assertEqual(
+            response.status_code,
+            status.HTTP_415_UNSUPPORTED_MEDIA_TYPE)
 
-    
     def test_read_an_account(self):
         """It should Read an existing Account"""
         account = self._create_accounts(1)[0]
@@ -139,4 +140,3 @@ class TestAccountService(TestCase):
         """It should not Read an Account that does not exist"""
         resp = self.client.get(f"{BASE_URL}/0")
         self.assertEqual(resp.status_code, status.HTTP_404_NOT_FOUND)
-
